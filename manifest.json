@@ -1,8 +1,11 @@
 {
   "name": "Branch",
   "namespace": "branch",
-  "description": "A Managed Component for making the internet better",
+  "description": "Branch Managed Component",
   "icon": "assets/icon.svg",
+  "categories": ["Analytics"],
+  "provides": ["events"],
+  "allowCustomFields": true,
   "permissions": {
     "access_client_kv": {
       "description": "This permission is used to facilitate better a user experience.",

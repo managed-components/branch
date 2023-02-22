@@ -105,7 +105,7 @@ const testUserData = (
   expect(user_data.sdk_version).toEqual('2.71.0')
 }
 
-const makeSetCookies = (withIdentity: boolean = true) => ({
+const makeSetCookies = (withIdentity = true) => ({
   identity_id: { value: '12345678901234' },
   browser_fingerprint_id: { value: '12345678901235' },
   session_id: { value: '12345678901236' },
