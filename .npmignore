@@ -1,1 +1,9 @@
 src
+.all-contributorsrc
+.eslintrc.js
+.github/*
+.prettierrc
+.vscode/settings.json
+esbuild.js
+tsconfig.build.json
+tsconfig.json
